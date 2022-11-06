@@ -1,0 +1,137 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushi Tito</title>
+</head>
+<body>
+    <header>
+        <h1>Sushi Tito</h1>
+    </header>
+<section>
+    <img src="./Imagenes/Sushi Tito.png" alt="Logo Sushi"/>
+
+    <h2>Menú</h2>
+    <h3>Sushi grande</h3>
+    <ul>
+        <li>Tsunami ........................ $40</li>
+        <li>Pirata ........................ $35</li>
+        <li>Dragon ........................ $45</li>
+        <li>Roll ........................ $30</li>
+        <li>Spider ........................ $35</li>
+    </ul>
+
+    <h3>Sushi pequeño</h3>
+    <p>Con wasabi y jengibre</p>
+    <ul>
+        <li>Komodo ........................ $25</li>
+        <li>Miyagui ........................ $20</li>
+        <li>Ball ........................ $25</li>
+        <li>Alaska ........................ $20</li>
+        <li>Boston ........................ $18</li>
+    </ul>
+
+    <h3>Especiales</h3>
+    <p>Haz tu combo con refresco por $5 más</p>
+    <dl>
+        <dt>Sushi Burguer .................. $45</dt>
+        <dd>Hamburguesas de sushi</dd>
+        <dt>Temakis ....................... $35</dt>
+        <dd>Cono de sushi</dd>
+        <dt>Ramen ......................... $30</dt>
+        <dd>Sopa de cerdo/pollo/camarones</dd>
+        <dt>Gyosas ........................ $20</dt>
+        <dd>Empanada vegetariana</dd>
+    </dl>
+</section>
+    <hr>
+<section>
+    <h2>Ubicación</h2>
+    <h3>Sucursales</h3>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Ubicación</th>
+            <th>Horarios</th>
+        </tr>
+        <tr>
+            <td>Centro</td>
+            <td><a href="https://goo.gl/maps/5WXzGPd25htTQYwX8" target="_blank">25 Al Norte De La, Rotonda de la Y griega, San José</a></td>
+            <td>L - D 24H</td>
+        </tr>
+        <tr>
+            <td>Sur</td>
+            <td><a href="https://goo.gl/maps/ywUnhD2bDsyw4kC87" target="_blank">Avenida Central Entre Calles 8 Y 10, San José</a></td>
+            <td>L - D 5pm -3 pm</td>
+        </tr>
+        <tr>
+            <td>Norte</td>
+            <td><a href="https://goo.gl/maps/LNWxutyWDxD2mUsu7" target="_blank">Paseo Colón, 150 Metros Al Este De La Toyota, P.º Colón, San José</a></td>
+            <td>M - D 5pm - 3pm</td>
+        </tr>
+    </table>
+</section>
+    <hr>
+<section>
+    <h2>Pedidos</h2>
+    <h3>Haz tu pedido aquí</h3>
+
+    <form action="">
+        <p>¿De qué taquería quieres?</p>
+    <select>
+        <option value="Norte">Norte</option>
+        <option value="Centro">Centro</option>
+        <option value="Sur">Sur</option>
+    </select> 
+
+    <p>¿De qué quieres el sushi?</p>
+    <input type="checkbox" id="Komodo" name="Komodo" value="Komodo">
+    <label for="topping1">Komodo</label>
+    <input type="number" id="KomodoNumber" name="KomodoNumber" placeholder="¿Cuántos?">
+    <br>
+    <input type="checkbox" id="Miyagui" name="Miyagui" value="Miyagui">
+    <label for="topping2">Miyagui</label>
+    <input type="number" id="MiyaguiNumber" name="MiyaguiNumber" placeholder="¿Cuántos?">
+    <br>
+    <input type="checkbox" id="Ball" name="Ball" value="Ball">
+    <label for="topping3">Ball</label>
+    <input type="number" id="BallNumber" name="BallNumber" placeholder="¿Cuántos?">
+    <br>
+    <input type="checkbox" id="Alaska" name="Alaska" value="Alaska">
+    <label for="topping4">Alaska</label>
+    <input type="number" id="AlaskaNumber" name="AlaskaNumber" placeholder="¿Cuántos?">
+    <br>
+    <input type="checkbox" id="Boston" name="Boston" value="Boston">
+    <label for="topping4">Boston</label>
+    <input type="number" id="BostonNumber" name="BostonNumber" placeholder="¿Cuántos?">
+    
+    <br><br>
+
+    <label for="Nombre">Nombre:</label><br>
+    <input type="text" id="Nombre" placeholder="¿Cómote llamas?">
+
+    <br><br>
+
+    <label for="Teléfono">Teléfono:</label><br>
+    <input type="text" id="Teléfono" placeholder="¿Tu teléfono?">
+
+    <br><br>
+
+    <label for="Correo">Correo electrónico</label><br>
+    <input type="email" id="Correo" placeholder="¿Cuál es tu correo electrónico?">
+
+    <br><br>
+
+    <label for="Dirección">Dirección:</label><br>
+    <input type="text" id="Dirección" placeholder="¿A dónde lo mandamos?">
+
+    <button type="submit">Enviar pedido</button>
+    <br><br>
+    </form>
+</section>    
+
+
+</body>
+</html>
